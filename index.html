@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="eng">
 	<head>
-		<title>Jazzassite</title>
+		<title>JazzaHat</title>
 		<meta charset="UTF-8" />
-		<meta name="author" content="Jazza_Hat" />
+		<meta name="author" content="JazzaHat" />
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/global.css" />
 		<link rel="stylesheet" type="text/css" href="css/slider.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
 	</head>
-	<body class="green">
+	<body>
 		<div id="top_section">
 			<div id="logo"></div>
-			<a class="nav"href="/index.php">Home</a>
-			<a class="nav"href="/music">Music</a>
-			<a class="nav"href="/downloads">Downloads</a>
-			<a class="nav"href="/contact">Contact</a>
+			<a class="nav"href="/index.html">Home</a>
+			<a class="nav"href="/logisim.html">Logisim</a>
+			<a class="nav"href="/contact.html">Contact</a>
 		</div>
 		<div id="content">
 			<div id="slider" onmouseover="showSliderControls();" onmouseout="hideSliderControls();">
 				<div id="next_slide" onclick="gotoImage(currentSlide+1)"></div>
 				<div id="prev_slide" onclick="gotoImage(currentSlide-1)"></div>
 				<div id="slide_ind_holder">
-					<div id="slide_ind_1" class="slide_ind" onclick="gotoImage(1);"></div>
+					<div id="slide_ind_1" class="slide_ind active" onclick="gotoImage(1);"></div>
 					<div id="slide_ind_2" class="slide_ind" onclick="gotoImage(2);"></div>
 					<div id="slide_ind_3" class="slide_ind" onclick="gotoImage(3);"></div>
-					<div id="slide_ind_4" class="slide_ind" onclick="gotoImage(4);"></div>
-					<div id="slide_ind_5" class="slide_ind" onclick="gotoImage(5);"></div>
 				</div>
 				<div id="slide_img_holder">
-					<span><div id="slide_1" class="slide_img"><div class="slide_heading"><span>Welcome to Jazzassite.tk where all the things belong to us.</span></div></div></span>
-					<span><div id="slide_2" class="slide_img"><div class="slide_heading"><span>is</span></div></div></span>
-					<span><div id="slide_3" class="slide_img"><div class="slide_heading"><span>a</span></div></div></span>
-					<span><div id="slide_4" class="slide_img"><div class="slide_heading"><span>test</span></div></div></span>
-					<span><div id="slide_5" class="slide_img"><div class="slide_heading"><span>Hey</span></div></div></span>
+					<span><div id="slide_1" class="slide_img"><div class="slide_heading"><span>Welcome to JazzaHat.github.io</span></div></div></span>
+					<span><div id="slide_2" class="slide_img"><div class="slide_heading"><span>x328 Instruction Set Architecture</span></div></div></span>
+					<span><div id="slide_3" class="slide_img"><div class="slide_heading"><span>x328 Logisim</span></div></div></span>
 				</div>
 			</div>
 		</div>
